@@ -45,13 +45,13 @@ function Home() {
       <FloatingHearts />
       <div className="relative z-10 flex flex-col gap-16 pb-20 sm:gap-20">
         <header className="reveal px-4 pt-16 text-center sm:pt-24">
-          <h1 className="font-script text-6xl text-primary sm:text-7xl lg:text-8xl">{textos.bienvenida}</h1>
-          <p className="mt-4 text-lg text-muted-foreground sm:text-xl">{textos.subtitulo}</p>
+          <h1 className="font-script text-6xl text-on-romance sm:text-7xl lg:text-8xl">{textos.bienvenida}</h1>
+          <p className="mt-4 text-lg text-on-romance-muted sm:text-xl">{textos.subtitulo}</p>
         </header>
         <Galeria />
         <Carta />
         <div className="reveal flex justify-center px-4">
-          <button onClick={() => setAbierto(true)} className="btn-love animate-heartbeat min-h-14 rounded-full px-10 text-xl font-semibold">
+          <button onClick={() => setAbierto(true)} className="btn-love animate-heartbeat border-2 border-on-romance min-h-14 rounded-full px-10 text-xl font-semibold">
             {textos.botonRespuesta} 💌
           </button>
         </div>

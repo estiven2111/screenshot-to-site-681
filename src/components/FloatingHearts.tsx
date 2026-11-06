@@ -18,7 +18,7 @@ export function FloatingHearts({ count = 18 }: { count?: number }) {
       {hearts.map((h, i) => (
         <span
           key={i}
-          className="animate-float-up absolute -bottom-10 text-primary/40"
+          className="animate-float-up absolute -bottom-10 text-on-romance/70"
           style={{ left: `${h.left}%`, fontSize: h.size, animationDuration: `${h.dur}s`, animationDelay: `${h.delay}s` }}
         >
           ❤
