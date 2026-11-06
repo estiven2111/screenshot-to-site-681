@@ -24,7 +24,7 @@ function Foto({ src, i }: { src: string; i: number }) {
 export function Galeria() {
   return (
     <section className="reveal mx-auto w-full max-w-5xl px-4">
-      <h2 className="mb-6 text-center font-script text-5xl text-primary sm:text-6xl">{textos.tituloGaleria}</h2>
+      <h2 className="mb-6 text-center font-script text-5xl text-on-romance sm:text-6xl">{textos.tituloGaleria}</h2>
       <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
         {fotos.map((src, i) => (
           <Foto key={i} src={src} i={i} />
